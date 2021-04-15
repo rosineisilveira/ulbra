@@ -1,0 +1,160 @@
+.divtudo{
+    
+    font-family: Arial, Helvetica, sans-serif;  
+}
+a,a:link,a:hover,a:visited{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color:rgb(207, 207, 207);
+}
+.divlinha{
+    clear: both;
+}
+#divCabecalho{
+    background-color: #162e58;
+    min-height: 100px;
+    padding: 30px 50px 10px 50px;
+    position: relative;
+}
+*{
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    font-size: 18px;
+}
+.h2titulosessao{
+    font-size: 20px;
+    padding: 10px;
+}
+.h3titulogrupo{
+    font-size: 14px;
+    padding: 5px;
+}
+#divclassificacao{
+    width: 50%;
+   
+    padding: 20px;
+}
+#divgoleadores{
+    width: 50%;
+
+    padding: 20px;
+
+}
+#divpartidas{
+    width: 50%;
+    padding: 20px;
+
+}
+th,table,td{
+    border-bottom: 1px solid rgb(216, 214, 214) ;
+    border-collapse: collapse;
+    padding: 7px;
+   
+}
+th{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+
+}
+td{
+    text-align: center;
+    font-size: 14px;
+}
+#tableclassificacao{
+    width: 100%;
+    background-color: white;
+}
+#tablegoleadores{
+    width: 100%;
+    background-color: white;
+}
+#tabelapartidas{
+    width: 100%;
+    background-color: white;
+}
+#tablegoleadores td{
+    padding: 20 10 10 10;
+}
+.tdnomeclube{
+    text-align: left;
+    width: 50%;
+}
+  
+
+.imgclub{
+    width: 25px;
+    height: 25px;
+}
+.tdimgclub{
+    width: 5%;
+}
+.divvitoria{
+    
+    background-image:url('/img/v.svg') ;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+.divempate{
+    background-image:url('/img/e.svg') ;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+.divderrota{
+    background-image:url('/img/d.svg') ;
+    background-repeat:no-repeat ;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+.divMenu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding-left: 21%;
+    padding: 21%;
+    text-align: center;    
+}
+.itemMenu{
+    float: left;
+    color: white;
+    text-align: center;
+    width: 10%;
+    height: 40px;
+}
+.tdjogador{
+    width: 90%;
+    text-align:center;
+    width: 12.5%;
+
+}
+.spannomeclube{
+    color: darkgray;
+    font-size: 12px;
+}
+.thtablejogo{
+    font-size: 14px;
+    color: darkgray;
+    text-align: left;
+}
+.tdclubpartida{
+    text-align: left;
+    width: 80%;
+}
+.tdhorario{
+    text-align: center;
+    font-size: 10px;
+}
